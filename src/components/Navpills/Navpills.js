@@ -8,8 +8,8 @@ const Navpills = props =>
     <li onClick={() => props.handlePageChange("About")}>
       <a>About</a>
     </li>
-    <li onClick={() => props.handlePageChange("Blog")}>
-      <a>Blog</a>
+    <li onClick={() => props.handlePageChange("Portfolio")}>
+      <a>Portfolio</a>
     </li>
     <li onClick={() => props.handlePageChange("Contact")}>
       <a>Contact</a>

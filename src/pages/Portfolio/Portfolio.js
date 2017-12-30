@@ -1,8 +1,8 @@
 import React from "react";
 
-const Blog = () =>
+const Portfolio = () =>
   <div>
-    <h1>Blog Page</h1>
+    <h1>Portfolio Page</h1>
     <p>
       Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
       Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu dictum.
@@ -20,4 +20,4 @@ const Blog = () =>
     </p>
   </div>;
 
-export default Blog;
+export default Portfolio;

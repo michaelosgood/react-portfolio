@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import Navpills from "./Navpills";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Blog from "./pages/Blog";
-import Contact from "./pages/Contact";
+import Navpills from "../Navpills";
+import Home from "../../pages/Home";
+import About from "../../pages/About";
+import Portfolio from "../../pages/Portfolio";
+import Contact from "../../pages/Contact";
 
-class Portfolio extends Component {
+class PortfolioContainer extends Component {
   state = {
     currentPage: "Home"
   };
@@ -19,8 +19,8 @@ class Portfolio extends Component {
       return <Home />;
     } else if (this.state.currentPage === "About") {
       return <About />;
-    } else if (this.state.currentPage === "Blog") {
-      return <Blog />;
+    } else if (this.state.currentPage === "Portfolio") {
+      return <Portfolio />;
     } else {
       return <Contact />;
     }
@@ -39,5 +39,5 @@ class Portfolio extends Component {
   }
 }
 
-export default Portfolio;
+export default PortfolioContainer;
 

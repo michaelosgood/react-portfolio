@@ -1,0 +1,21 @@
+.wrapper {
+    background-color: #80ced6;
+    float: right;
+    padding: 5%;
+    min-width: 350px;
+}
+.fa {
+    font-size: 50px;
+}
+.fa-github {
+    float: left;
+    padding-left: 10%;
+}
+.fa-linkedin-square {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.fa-stack-overflow {
+    float: right;
+    padding-right: 10%;
+}

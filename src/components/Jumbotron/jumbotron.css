@@ -1,0 +1,8 @@
+.jumbotron {
+    /*background-image: url("../../images/aspens.jpg");*/ /*Uncomment Out to Enable Image Option */
+    background-color: black; /* Comment Out to Disable Background Color Option */
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
