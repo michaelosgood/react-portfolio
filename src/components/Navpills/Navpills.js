@@ -17,10 +17,6 @@ const Navpills = props =>
         <a>Contact</a>
       </li>
     </ul>
-    <div className="contact">      
-        <i className="fa fa-github" aria-hidden="true"></i>
-        <i className="fa fa-linkedin-square" aria-hidden="true"></i>
-    </div>
   </div>
 
 export default Navpills;

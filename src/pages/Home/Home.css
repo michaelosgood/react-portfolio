@@ -1,6 +1,7 @@
 .home-wrapper {
     background-color: #618685;
-    min-height: 500px;
+    height: auto;
+    padding-top: 25px;
 }
 h2, h1 {
     text-align: center;

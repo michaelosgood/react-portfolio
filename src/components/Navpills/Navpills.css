@@ -7,16 +7,9 @@ a {
     height: 150px;
 }
 li {
-    background-color: grey;
+    background-color: #618685;
 }
 .nav-pills {
-    background-color: orange;
     float: right;
-}
-
-.fa-github {
-    float: left;
-}
-.fa-linkedin-square {
-    float: left;
+    padding: 2%;
 }
