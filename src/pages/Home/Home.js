@@ -1,9 +1,9 @@
 import React from "react";
 import "./Home.css";
-import Jumbotron from "../../components/Jumbotron";
 
 const Home = () =>
   <div className="home-wrapper">
-    <Jumbotron />
+   <h1> Michael F. Osgood </h1>
+   <h2> Full-Stack Web Developer | User Acceptance Tester | Biologist </h2>
   </div>;
 export default Home;

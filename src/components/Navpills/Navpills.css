@@ -1,0 +1,22 @@
+a {
+    color: black;
+    font-size: 24px;
+}
+.NavWrapper {
+    background-color: transparent;
+    height: 150px;
+}
+li {
+    background-color: grey;
+}
+.nav-pills {
+    background-color: orange;
+    float: right;
+}
+
+.fa-github {
+    float: left;
+}
+.fa-linkedin-square {
+    float: left;
+}
