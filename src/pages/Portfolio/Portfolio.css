@@ -1,4 +1,7 @@
 .PortfolioWrapper {
     background-color: green;
-    height: 300px;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
 }
