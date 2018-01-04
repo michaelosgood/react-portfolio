@@ -1,9 +1,11 @@
 .AboutWrapper {
-    background-color: #009fd8;
-    color: white;
+    background-color: #29aeac;
     height: auto;
     max-width: 90%;
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 10px;
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/23472365_10159579402265301_1284489945088995645_n.jpg?oh=01b80fc8e4d82e77b147f030c635da58&oe=5AFCFB9E");
+    background-repeat: no-repeat;
+    background-size: 300px 400px;
 }

@@ -3,12 +3,19 @@
     padding-bottom: 50px;
 }
 .intro {
-    background-color: #ff7958;
+    padding-top: 20%;
+    background-color: #29aeac;
     max-width: 90%;
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 10px;
+    background-image: url("https://ak7.picdn.net/shutterstock/videos/695827/thumb/1.jpg?i10c=img.resize(height:160)");
+    background-repeat: no-repeat;
+    background-size: auto;
+    
 }
-h2, h1 {
+h2, h1, p {
+    
     text-align: center;
+    color: white;
 }

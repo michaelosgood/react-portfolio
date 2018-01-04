@@ -4,6 +4,7 @@ import Footer from "../../components/Footer";
 
 const About = () =>
   <div className="AboutWrapper">
+  <div className="picture"></div>
     <h1>About Me</h1>
     <p>
       My name is Michael Osgood and I am a huge science and tech enthusiast. 

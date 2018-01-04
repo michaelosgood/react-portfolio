@@ -5,16 +5,16 @@ const Navpills = props =>
   <div className="NavWrapper">
     <ul className="nav nav-pills">
       <li className="nav-item" onClick={() => props.handlePageChange("Home")}>
-        <a>Home</a>
+        <a><i className="fa fa-home fa-lg" aria-hidden="true"></i>Home</a>
       </li>
       <li className="nav-item" onClick={() => props.handlePageChange("About")}>
-        <a>About</a>
+      <a><i class="fa fa-flask fa-lg" aria-hidden="true"></i>Skills</a>
       </li>
       <li className="nav-item" onClick={() => props.handlePageChange("Portfolio")}>
-        <a>Portfolio</a>
+        <a><i class="fa fa-briefcase fa-lg" aria-hidden="true"></i>Portfolio</a>
       </li>
       <li className="nav-item" onClick={() => props.handlePageChange("Contact")}>
-        <a>Contact</a>
+        <a><i class="fa fa-address-card-o fa-lg" aria-hidden="true"></i>Contact</a>
       </li>
     </ul>
   </div>
