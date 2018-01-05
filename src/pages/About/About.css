@@ -5,7 +5,15 @@
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 10px;
-    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/23472365_10159579402265301_1284489945088995645_n.jpg?oh=01b80fc8e4d82e77b147f030c635da58&oe=5AFCFB9E");
+}
+
+/* Profile Picture */
+.picture {
+    float: left;
+    height: 240px;
+    width: 200px;
+    background-image: url("../../images/profile.jpg");
     background-repeat: no-repeat;
-    background-size: 300px 400px;
+    background-size: 180px 240px;
+    border-top-left-radius: 10px;
 }

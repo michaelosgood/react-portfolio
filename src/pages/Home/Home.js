@@ -8,8 +8,6 @@ import Contact from "../Contact";
 const Home = () =>
   <div className="home-wrapper">
     <div className="intro">
-      <h1> Michael F. Osgood </h1>
-      <h2> Full-Stack Web Developer</h2>
     </div>
     <About />
     <Portfolio />

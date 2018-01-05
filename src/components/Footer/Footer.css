@@ -1,10 +1,14 @@
 .footer {
      position: fixed;
      bottom: 0;
-     background-color: #29aeac;
+     background-color: #778899;
      width: 100%;
      text-align: center;
-     font-size: 24px;
+     font-size: 16px;
      color: black;
-     border-radius: 10px;
+}
+
+/* Footer Logo */
+.footer-logo {
+    text-align: center;
 }
