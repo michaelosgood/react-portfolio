@@ -1,3 +1,6 @@
+body {
+    background-color: #D3D3D3;
+}
 .home-wrapper {
     padding-top: 70px;
     padding-bottom: 50px;
@@ -6,21 +9,22 @@
     padding-top: 30%;
     background-color: #29aeac;
     max-width: 90%;
-    height: 500px;
+    height: auto;
     margin-left: 5%;
     border-radius: 10px;
-    background-image: url("../../images/binary.jpg");
+    background-image: url("../../images/gene.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
 }
 p {
     text-align: left;
-    color: white;
+    color: black;
 }
-h1, h2 {
+h1, h2, h3 {
     text-align: center;
-    color: white;
+    color: black;
 }
 a {
-   color:white; 
+   color:black; 
 }

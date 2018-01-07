@@ -1,19 +1,22 @@
 .AboutWrapper {
-    background-color: #29aeac;
+    background-color:  #2646ea;
     height: auto;
+    min-height:300px;
     max-width: 90%;
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 10px;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
 }
 
 /* Profile Picture */
 .picture {
     float: left;
-    height: 240px;
+    height: 300px;
     width: 200px;
     background-image: url("../../images/profile.jpg");
     background-repeat: no-repeat;
-    background-size: 180px 240px;
+    background-size: 200px 300px;
     border-top-left-radius: 10px;
+    border: 5px solid #c3c3c3;
 }

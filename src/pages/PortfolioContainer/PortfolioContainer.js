@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Navpills from "../Navpills";
-import Home from "../../pages/Home";
-import About from "../../pages/About";
-import Portfolio from "../../pages/Portfolio";
-import Contact from "../../pages/Contact";
+import Navpills from "../../components/Navpills";
+import Home from "../Home";
+import About from "../About";
+import Portfolio from "../Portfolio";
+import Contact from "../Contact";
 
 class PortfolioContainer extends Component {
   state = {

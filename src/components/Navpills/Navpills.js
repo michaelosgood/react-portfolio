@@ -8,13 +8,13 @@ const Navpills = props =>
         <a href="."><i className="fa fa-home fa-lg" aria-hidden="true"></i>Home</a>
       </li>
       <li className="nav-item">
-      <a href="#bio"><i className="fa fa-flask fa-lg" aria-hidden="true"></i>Bio</a>
+      <a href="#bio"><i className="fa fa-flask fa-lg" aria-hidden="true"></i>Biography</a>
       </li>
       <li className="nav-item">
-        <a href="#port"><i className="fa fa-briefcase fa-lg" aria-hidden="true"></i>Portfolio</a>
+        <a href="#port"><i className="fa fa-code fa-lg" aria-hidden="true"></i>Portfolio</a>
       </li>
       <li className="nav-item">
-        <a href="#contact"><i className="fa fa-address-card-o fa-lg" aria-hidden="true"></i>Contact</a>
+        <a href="#contact"><i className="fa fa-phone fa-lg" aria-hidden="true"></i>Contact</a>
       </li>
     </ul>
   </div>
