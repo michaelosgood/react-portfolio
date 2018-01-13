@@ -1,12 +1,15 @@
 .ContactWrapper {
-    background-color: #29aeac;
-    max-width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 10px;
+    background-color: #01a5f0;
+    max-width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border-radius: 5px;
     height: auto;
-    position: relative;
+    position: static;
     top: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+}
+input, textarea {
+    border-radius: 3px;
 }

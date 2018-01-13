@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () =>
     <div className="footer">
         <p className="footer-logo">
-           Copyright &#169; 2017 Michael F. Osgood
+            Copyright &#169; 2018 Michael F. Osgood
         </p>
     </div>
 export default Footer;

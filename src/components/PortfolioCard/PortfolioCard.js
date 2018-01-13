@@ -8,16 +8,17 @@ const PortfolioCard = props => (
     </div>
     <div className="content">
       <ul>
-        <li>
-          <strong>Application</strong> {props.name}
+        <li className="li">
+          <h3>{props.name}</h3> 
         </li>
-        <li>
-          <strong>Description:</strong> {props.description}
+        <li className="li">
+          <h4>{props.description}</h4>
         </li>
-        <li>
-          <strong>URL:</strong> {props.url}
-        </li>
-      </ul>
+        <button
+          className="btn btn-default">
+          <a href={props.url} target="_blank" rel="noopener noreferrer">See Application</a>
+        </button>
+        </ul>
     </div>
   </div>
 );

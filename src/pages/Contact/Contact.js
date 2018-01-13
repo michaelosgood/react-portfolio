@@ -1,14 +1,13 @@
 import React from "react";
 import "./Contact.css";
 import Wrapper from "../../components/Wrapper";
+import ContactMe from "../../components/ContactMe";
 
 const Contact = () =>
   <div className="ContactWrapper">
-    <h1 id="contact">Contact Me</h1>
+    <h1 id="contact"><i className="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>Contact Me</h1>
       <Wrapper >
-        <h3><i className="fa fa-address-card" aria-hidden="true"></i> Name </h3>
-        <h3> <i className="fa fa-envelope-open" aria-hidden="true"></i>Email </h3>
-        <h3> <i className="fa fa-inbox" aria-hidden="true"></i>Message </h3>
+        <ContactMe />
       </Wrapper >
   </div>;
 export default Contact;

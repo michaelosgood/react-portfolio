@@ -7,7 +7,7 @@ import projects from "../../components/Projects/projects.json";
 
 const Portfolio = () =>
   <div className="PortfolioWrapper">
-    <h1 id="port">Portfolio</h1>
+    <h1 id="port"> <i className="fa fa-code fa-lg fa-fw" aria-hidden="true"></i>Portfolio</h1>
       <Wrapper>
         <PortfolioCard
           name={projects[0].name}

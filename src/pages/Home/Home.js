@@ -1,16 +1,15 @@
 import React from "react";
 import "./Home.css";
-import Footer from "../../components/Footer";
-import About from "../About";
+import Bio from "../Bio";
 import Portfolio from "../Portfolio";
 import Contact from "../Contact";
-
+import Footer from "../../components/Footer";
 
 const Home = () =>
   <div className="home-wrapper">
     <div className="intro">
     </div>
-    <About />
+    <Bio />
     <Portfolio />
     <Contact />
     <Footer />

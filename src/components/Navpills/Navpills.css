@@ -1,5 +1,4 @@
 a {
-    color: black;
     font-size: 24px;
 }
 .NavWrapper {
@@ -7,12 +6,47 @@ a {
     position: fixed;
     width: 100%;
 }
-li {
-    background-color: #778899;
-    border-radius: 10px;
+.nav-item {
+    background-color: #01a5f0;
+    border-radius: 5px;
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .nav-pills {
     float: right;
     padding: 1%;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    a { 
+        font-size: 14px;
+    }
+    .nav-item {
+        background-color:#01a5f0;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 0;
+    }
+    .nav-pills {
+        padding-left: 0%;
+        padding-right: 0%;
+        min-width: 100%;
+    }
+    .NavWrapper {
+        background-color: #01a5f0;
+        width: 100%;
+    }
+    #main {
+        width: 100%;
+    }
+    #left {
+        width: 32%;
+    }
+    #center {
+        width: 33%;
+    }
+    #right {
+        width: 33%;
+    }
 }

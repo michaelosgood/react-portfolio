@@ -8,8 +8,7 @@
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;
-  border: 50px solid #c3c3c3;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  border: 50px solid #d3d3d3;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
