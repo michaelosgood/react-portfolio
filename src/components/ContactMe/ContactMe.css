@@ -1,14 +1,17 @@
 .ContactMeWrapper {
-    background-color: #01a5f0;
+  
     float: right;
     padding: 5%;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px #000000, 0 3px 6px #000000;
+    width: 100%;
 }
-.fa-github {
-    float: left;
+.fa-github {   
+    float: center;
 }
-.fa-linkedin-square {
+.fa-linkedin-square {  
     float: center;
 }
 .fa-stack-overflow {
-    float: right;
+    float: center;
 }

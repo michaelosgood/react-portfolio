@@ -1,9 +1,16 @@
 .PortfolioWrapper {
     background-color: #01a5f0;
-    max-width: 95%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    max-width: 99%;
+    margin-left: 1%;
+    margin-right: 1%;
     border-radius: 5px;
     height: auto;
-    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    box-shadow: 0 3px 6px #000000, 0 3px 6px #000000;
+}
+.PortfolioHeader {
+    padding: 1px;
+}
+.PortfolioBoard {
+    box-shadow: 0 3px 6px #000000, 0 3px 6px #000000;
+    padding:1%;
 }

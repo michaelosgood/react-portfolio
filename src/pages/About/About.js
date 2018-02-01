@@ -5,7 +5,7 @@ import Footer from "../../components/Footer";
 
 const About = () =>
   <div className="AboutWrapper">
-    <h1 id="bio"><i className="fa fa-globe fa-lg fa-fw" aria-hidden="true"></i>Font Options</h1>
+    <h1 id="bio"><i className="fa fa-globe fa-lg fa-fw" aria-hidden="true"></i>&nbsp; Font Options</h1>
       <Wrapper >
       <ul>
         <li><h1 className ="one">Michael Osgood</h1> </li>

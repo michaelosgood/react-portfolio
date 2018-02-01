@@ -2,30 +2,30 @@
   {
     "id": 1,
     "name": "buzzr",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Spongebob-squarepants.svg/666px-Spongebob-squarepants.svg.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/BuzzrApp.png/800px-BuzzrApp.png",
     "description": "A Mongo Express React Node (MERN) restaurant application that allows restaurant owners to register their restaurants. The app also allows users to sign in to a restaurant. There is also a trivia game that users can play.",
     "url": "https://buzzrapp.herokuapp.com/"
   },
   {
     "id": 2,
     "name": "Game of Thrones Trivia Game",
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "description": "Restaurant Owner",
-    "url": "https://www.google.com/"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/GameOfThronesTG.png/800px-GameOfThronesTG.png",
+    "description": "A Game of Thrones trivia game that tests your knowledge on the show. Answer quickly before the time runs out.",
+    "url": "https://michaelosgood.github.io/TriviaGame/"
   },
   {
     "id": 3,
     "name": "The Onion Scraper",
-    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-    "description": "Cashier",
-    "url": "An Easter Island Head"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/OnionScraper.png/800px-OnionScraper.png",
+    "description": "A web scraping appliction that scrapes 'The Onion' for articles.",
+    "url": "https://sleepy-plateau-29759.herokuapp.com/"
   },
   {
     "id": 4,
-    "name": "EventHub",
-    "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
-    "description": "Boy Genius",
-    "url": "A Secret Laboratory"
+    "name": "Event Hub",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/EventHub.png/800px-EventHub.png",
+    "description": "An application that allows users to search for local events. The application uses Google Maps and the OpenWeatherMap API.",
+    "url": "https://michaelosgood.github.io/chartreuse_project/"
   },
   {
     "id": 5,

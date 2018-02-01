@@ -1,5 +1,5 @@
-a {
-    font-size: 24px;
+#navpills {
+    font-size: 22px;
 }
 .NavWrapper {
     background-color: transparent;
@@ -7,15 +7,33 @@ a {
     width: 100%;
 }
 .nav-item {
-    background-color: #01a5f0;
+    background-color:#01a5f0;
     border-radius: 5px;
-    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    box-shadow: 0 3px 6px #000000, 0 3px 6px #000000;
     font-family: 'Josefin Sans', sans-serif;
 }
 .nav-pills {
-    float: right;
     padding: 1%;
 }
+#main {
+    width: 40%;
+    text-align: center;
+}
+#left {
+    width: 18%;
+    text-align: center;
+}
+#center {
+    width: 21%;
+    text-align: center;
+}
+#right {
+    width: 20%;
+    text-align: center;
+}
+a {
+    color:#fafafa;
+ }
 
 /* Media Queries */
 @media only screen and (max-width: 768px) {
@@ -24,6 +42,7 @@ a {
     }
     .nav-item {
         background-color:#01a5f0;
+        /* background-color: #000000; */
         width: 100%;
         text-align: center;
         box-shadow: 0 0;
@@ -35,7 +54,9 @@ a {
     }
     .NavWrapper {
         background-color: #01a5f0;
+        /* background-color: #000000; */
         width: 100%;
+        box-shadow:0 3px 6px #000000, 0 3px 6px #000000;
     }
     #main {
         width: 100%;
