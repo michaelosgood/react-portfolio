@@ -12,9 +12,9 @@ const Home = () =>
       <h1 className="text">Hello, I'm Michael.</h1>
       <h2 className="text">I am a Full Stack Web Developer who is fervent about science &#38; technology</h2>
       </div>
-    </div><br />
-    <Bio /><br />
-    <Portfolio /><br />
+    </div>
+    <Bio />
+    <Portfolio />
     <Contact />
     <Footer />
   </div>;

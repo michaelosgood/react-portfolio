@@ -6,9 +6,11 @@ import Wrapper from "../../components/Wrapper";
 import projects from "../../components/Projects/projects.json";
 
 const Portfolio = () =>
+<div id="port">
   <div className="PortfolioWrapper">
     <div className="PortfolioHeader">
-      <h1 id="port"> <i className="fa fa-code fa-lg fa-fw" aria-hidden="true"></i>&nbsp; Portfolio</h1>
+
+      <h1> <i className="fa fa-code fa-lg fa-fw" aria-hidden="true"></i>&nbsp; Portfolio</h1>
     </div>
       <Wrapper>
         <div className="PortfolioBoard">
@@ -36,9 +38,28 @@ const Portfolio = () =>
             description={projects[3].description}
             url={projects[3].url}
           />
+          <PortfolioCard
+            name={projects[4].name}
+            image={projects[4].image}
+            description={projects[4].description}
+            url={projects[4].url}
+          />
+          <PortfolioCard
+            name={projects[5].name}
+            image={projects[5].image}
+            description={projects[5].description}
+            url={projects[5].url}
+          />
+          <PortfolioCard
+            name={projects[6].name}
+            image={projects[6].image}
+            description={projects[6].description}
+            url={projects[6].url}
+          />
         </div>
     </Wrapper>
     <Footer />
-  </div>;
+  </div>
+</div>;
 
 export default Portfolio;

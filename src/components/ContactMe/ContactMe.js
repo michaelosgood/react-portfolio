@@ -16,6 +16,18 @@ const ContactMe = () =>
       </a>
     </h3>
     <h3>
+      <a href="https://www.instagram.com/kno_good" target="_blank" rel="noopener noreferrer">
+        <i className="fa fa-instagram fa-fw" aria-hidden="true"> 
+        </i>Instagram
+      </a>
+    </h3>
+    <h3>
+      <a href="https://twitter.com/kno_good" target="_blank" rel="noopener noreferrer">
+        <i className="fa fa-twitter fa-fw" aria-hidden="true"> 
+        </i>Twitter
+      </a>
+    </h3>
+    <h3>
       <a href="https://github.com/michaelosgood" target="_blank" rel="noopener noreferrer">
         <i className="fa fa-github fa-fw" aria-hidden="true"> 
         </i>GitHub
@@ -24,3 +36,4 @@ const ContactMe = () =>
   </div>;
 
 export default ContactMe;
+
