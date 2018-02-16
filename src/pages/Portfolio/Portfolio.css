@@ -1,21 +1,16 @@
-#port {
-    padding-top: 5%;
-}
+/* #port {
+    padding-top: 3%;
+} */
 .PortfolioWrapper {
     background-color: #01a5f0;
-    max-width: 99%;
-    margin-left: 1%;
-    margin-right: 1%;
-    border-radius: 5px;
     height: auto;
     box-shadow: 0 3px 6px #000000, 0 3px 6px #000000;
 }
 .PortfolioHeader {
+    background-color: #3d3d3f;
     padding: 1px;
 }
 .PortfolioBoard {
-    background-color: #01a5f0;
-    width: auto;
-    box-shadow: 0 3px 6px #000000, 0 3px 6px #000000;
+    width:100%;
     padding:1%;
 }

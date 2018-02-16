@@ -1,6 +1,5 @@
 import React from "react";
 import "./Bio.css";
-import Wrapper from "../../components/Wrapper";
 import Footer from "../../components/Footer";
 
 const Bio = () =>
@@ -9,7 +8,6 @@ const Bio = () =>
     <div className="BioHeader">
       <h1><i className="fa fa-globe fa-lg fa-fw" aria-hidden="true"></i>&nbsp; Biography</h1>
     </div>
-      <Wrapper >
         <div className="paragraph">
           <div className="picture"></div>
           <h3>Education</h3>
@@ -30,7 +28,6 @@ const Bio = () =>
             learning, traveling, and web development.
           </p>
         </div>
-      </Wrapper>
     <Footer />
   </div>
 </div>

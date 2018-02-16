@@ -1,25 +1,26 @@
 .card {
-    background: #fff;
+  background-color: #3D3D3D;
     border-radius: 5px;
-    height: 550px;
-    margin: 4rem;
+    height: 450px;
+    width: 80%;
     position: static;
-    width: 425px;
     box-shadow: 0 3px 6px #000000, 0 3px 6px #000000;
     text-align: left;
-
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
   
 .card > .img-container {
-  height: 45%;
+  height: 60%;
   overflow: hidden;
   text-align: center;
-  background:#6CADDC;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
 .card > .img-container > img {
   width: 100%;
+  height: auto;
 }
   
 .card > .content {
@@ -34,18 +35,49 @@
 }
   
 .card > .content > ul > li {
-  margin-top: 18px;
+  margin-top: 1%;
 }
 .li {
-  background-color: #6CADDC;
+  background-color: #3D3D3D;
   border-radius: 5px;
   float: left;
   width: 100%;
 }
 .btn {
   margin-top: 18px;
-  width: 100%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
   border-radius: 5px;
-  background-color: #01a5f0;
-  
+  background-color: #3D3D3D;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .card {
+    height: auto;
+    width: 90%;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    padding-bottom: 1%;
+  }
+  .card > .content {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 14px;
+  }
+  .li {
+    background-color:#3D3D3D;
+    border-radius: 5px;
+    width: 90%;
+  }
+  .btn {
+    margin-top: 1%;
+    width: 90%;
+    margin-left: 0%;
+    border-radius: 5px;
+    background-color: #3D3D3D;
+  }
 }

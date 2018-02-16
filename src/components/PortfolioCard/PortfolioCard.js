@@ -12,7 +12,7 @@ const PortfolioCard = props => (
           <h3>{props.name}</h3> 
         </li>
         <li className="li">
-          <h4>{props.description}</h4>
+          <p>{props.description}</p>
         </li>
         <button
           className="btn btn-default">

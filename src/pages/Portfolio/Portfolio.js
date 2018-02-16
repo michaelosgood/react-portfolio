@@ -2,7 +2,6 @@ import React from "react";
 import "./Portfolio.css";
 import Footer from "../../components/Footer";
 import PortfolioCard from "../../components/PortfolioCard";
-import Wrapper from "../../components/Wrapper";
 import projects from "../../components/Projects/projects.json";
 
 const Portfolio = () =>
@@ -12,7 +11,6 @@ const Portfolio = () =>
 
       <h1> <i className="fa fa-code fa-lg fa-fw" aria-hidden="true"></i>&nbsp; Portfolio</h1>
     </div>
-      <Wrapper>
         <div className="PortfolioBoard">
           <PortfolioCard
             name={projects[0].name}
@@ -38,26 +36,7 @@ const Portfolio = () =>
             description={projects[3].description}
             url={projects[3].url}
           />
-          <PortfolioCard
-            name={projects[4].name}
-            image={projects[4].image}
-            description={projects[4].description}
-            url={projects[4].url}
-          />
-          <PortfolioCard
-            name={projects[5].name}
-            image={projects[5].image}
-            description={projects[5].description}
-            url={projects[5].url}
-          />
-          <PortfolioCard
-            name={projects[6].name}
-            image={projects[6].image}
-            description={projects[6].description}
-            url={projects[6].url}
-          />
         </div>
-    </Wrapper>
     <Footer />
   </div>
 </div>;

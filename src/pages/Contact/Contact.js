@@ -1,6 +1,5 @@
 import React from "react";
 import "./Contact.css";
-import Wrapper from "../../components/Wrapper";
 import ContactMe from "../../components/ContactMe";
 
 const Contact = () =>
@@ -12,9 +11,7 @@ const Contact = () =>
         </i>&nbsp; Contact Me
       </h1>
     </div>
-    <Wrapper >
       <ContactMe />
-    </Wrapper >
   </div>
 </div>;
 export default Contact;
