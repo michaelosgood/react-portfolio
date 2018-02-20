@@ -24,12 +24,12 @@ const Portfolio = () =>
             description={projects[1].description}
             url={projects[1].url}
           />
-          <PortfolioCard
+          {/* <PortfolioCard
             name={projects[2].name}
             image={projects[2].image}
             description={projects[2].description}
             url={projects[2].url}
-          />
+          /> */}
           <PortfolioCard
             name={projects[3].name}
             image={projects[3].image}

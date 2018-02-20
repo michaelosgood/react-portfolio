@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "buzzr",
+    "name": "buzzr.",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/BuzzrApp.png/800px-BuzzrApp.png",
     "description": "A Mongo Express React Node (MERN) restaurant application that allows restaurant owners to register their restaurants. The app also allows users to sign in to a restaurant. There is also a trivia game that users can play.",
     "url": "https://buzzrapp.herokuapp.com/"

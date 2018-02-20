@@ -19,13 +19,13 @@ const Bio = () =>
           </p>
         <h3>Skills </h3>
           <p>
-            HTML, CSS, Boostrap, React.js, JavaScript, jQuery, MySQL, ExpressJS, MongoDB, Heroku,
+            HTML, CSS, JavaScript, Boostrap, React.js, jQuery, MySQL, Express.js, MongoDB, Heroku,
             Node.js, Media-Queries, Bootstrap, GitHub, Jira, Agile
           </p>
           <h3>Hobbies </h3>
           <p>
-            Hiking, cycling, photograpy, kayaking, snowboarding, fishing,
-            learning, traveling, and web development.
+            Hiking, Photograpy, Botany, Kayaking, Snowboarding, Fishing, 
+            Traveling, Web Development
           </p>
         </div>
     <Footer />

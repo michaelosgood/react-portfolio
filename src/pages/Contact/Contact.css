@@ -26,11 +26,16 @@
 }
 @media only screen and (max-width: 768px) {
     .ContactWrapper {
-        margin-bottom: -10px;
+        margin-bottom: -20px;
+    }
+}
+@media only screen and (max-width: 668px) {
+    .ContactWrapper {
+        margin-bottom: -35px;
     }
 }
 @media only screen and (max-width: 568px) {
     .ContactWrapper {
-        margin-bottom: 5px;
+        margin-bottom: -5px;
     }
 }
