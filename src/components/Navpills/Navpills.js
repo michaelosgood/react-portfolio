@@ -11,7 +11,7 @@ const Navpills = props =>
       </li>
       <li className="nav-item" id="left">
         <a className="page-scroll" href="#bio">
-          Bio
+          About
         </a>
       </li>
       <li className="nav-item" id="center">

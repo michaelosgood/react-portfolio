@@ -1,6 +1,6 @@
 import React from "react";
-import PortfolioContainer from "./pages/PortfolioContainer"
+import Router from "./pages/Router"
 
-const App = () => <PortfolioContainer />;
+const App = () => <Router />;
 
 export default App;

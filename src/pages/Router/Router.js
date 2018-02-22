@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import Navpills from "../../components/Navpills";
 import Home from "../Home";
-import About from "../About";
+import Bio from "../Bio";
 import Portfolio from "../Portfolio";
 import Contact from "../Contact";
 
-class PortfolioContainer extends Component {
+class Router extends Component {
   state = {
     currentPage: "Home"
   };
@@ -17,8 +17,8 @@ class PortfolioContainer extends Component {
   renderPage = () => {
     if (this.state.currentPage === "Home") {
       return <Home />;
-    } else if (this.state.currentPage === "About") {
-      return <About />;
+    } else if (this.state.currentPage === "Bio") {
+      return <Bio />;
     } else if (this.state.currentPage === "Portfolio") {
       return <Portfolio />;
     } else {
@@ -39,5 +39,5 @@ class PortfolioContainer extends Component {
   }
 }
 
-export default PortfolioContainer;
+export default Router;
 

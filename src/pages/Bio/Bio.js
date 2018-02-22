@@ -6,7 +6,7 @@ const Bio = () =>
 <div id="bio">
   <div className="BioWrapper">
     <div className="BioHeader">
-      <h1><i className="fa fa-globe fa-lg fa-fw" aria-hidden="true"></i>&nbsp; Biography</h1>
+      <h1>About Me</h1>
     </div>
         <div className="paragraph">
           <div className="picture"></div>

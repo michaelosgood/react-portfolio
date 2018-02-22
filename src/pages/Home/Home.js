@@ -10,7 +10,7 @@ const Home = () =>
     <div className="intro">
       <div className="mfo">
       <h1 className="text">Hello, I'm Michael.</h1>
-      <h2 className="text">I am a Full Stack Web Developer who is fervent about science &#38; technology</h2>
+      <h2 className="text">I am a Full Stack Web Developer &#38; User Acceptance Tester</h2>
       </div>
     </div>
     <Bio />
